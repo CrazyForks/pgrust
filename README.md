@@ -34,6 +34,8 @@ The goal is to make Postgres easier to change from the inside: keep the behavior
 Postgres-shaped, keep the real Postgres tests as the oracle, and use Rust plus
 AI-assisted programming to explore deeper server changes.
 
+Update: We're working on a new not yet published version of pgrust that currently passes 100% of Postgres regression suite, has a thread per connection model instead of process per connection, is 50% faster than Postgres on transaction workloads, and is ~300x faster than Postgres on analytical workloads (2x slower than Clickhouse on clickbench and we think it can get faster than Clickhouse). Follow pgrust or join our Discord for updates!
+
 ## Follow pgrust
 
 [Get project updates by email](https://pgrust.com/#updates), including new
